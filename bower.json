@@ -1,0 +1,37 @@
+{
+  "name": "px-shadows-design",
+  "version": "1.0.0",
+  "authors": [
+    "General Electric"
+  ],
+  "description": "The Predix UI shadows are a set predefined shadows that give a visual rythm to the design system.",
+  "main": "bower.json",
+  "keywords": [
+    "px",
+    "sass",
+    "starter kit"
+  ],
+  "homepage": "https://github.com/PredixDev/px-shadows-design.git",
+  "private": false,
+  "ignore": [
+    "*.enc",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "sass",
+    "*.md",
+    "scripts",
+    "github",
+    "gulpfile.js",
+    "monogram-wdmk.png",
+    "wct.conf.json",
+    "test",
+    "OSS_Notice.pdf"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "px-starter-kit-design": "^1.0.0",
+    "px-sass-doc": "^1.0.0"
+  }
+}
