@@ -36,7 +36,11 @@ PAGE. IT SHOULD NOT PROVIDE RULES FOR THE MODULE.
 .demo{
   width: 40%;
   padding: 10px;
-  background: #ebeff2;
+  background: var(--px-demo-shadow-box-backgroung, #ebeff2);
+}
+
+.bg{
+  background: #23343f;
 }
 
 // Trumps
