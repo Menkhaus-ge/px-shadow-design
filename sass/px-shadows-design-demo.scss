@@ -39,10 +39,6 @@ PAGE. IT SHOULD NOT PROVIDE RULES FOR THE MODULE.
   background: var(--px-demo-shadow-box-backgroung, #ebeff2);
 }
 
-.bg{
-  background: #23343f;
-}
-
 // Trumps
 @import "inuit-clearfix/_trumps.clearfix.scss";
 @import "px-spacing-responsive-design/_trumps.spacing-responsive.scss";
