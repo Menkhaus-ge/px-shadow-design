@@ -9,7 +9,7 @@
  */
 
 //
-// Sass for the "sketch" notion of the px-toggle-design component
+// Sass for the px-shadows-design demo page
 //
 // @author GE Digital
 //
@@ -40,6 +40,5 @@ PAGE. IT SHOULD NOT PROVIDE RULES FOR THE MODULE.
 }
 
 // Trumps
-@import "inuit-clearfix/_trumps.clearfix.scss";
 @import "px-spacing-responsive-design/_trumps.spacing-responsive.scss";
 @import "px-widths-responsive-design/_trumps.widths-responsive.scss";

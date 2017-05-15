@@ -14,7 +14,7 @@
 <!-- 1: Describe Module -->
 <px-sass-doc
   module-name="px-shadows-design"
-  description="The Predix UI shadows are a set predefined shadows that give a visual rythm to the design system."
+  description="The Predix UI Shadows module provides a set of predefined shadow styles that give a visual rhythm to the design system."
   layer="objects"
   sassdoc-path="sassdoc.json"
   selected-options="{{selectedOptions}}">
@@ -24,13 +24,13 @@
   option-name="Options"
   choose-with="dropdown"
   choices='[
-    "components",
-    "temporary states",
-    "navigation",
-    "notifications",
-    "modal state"
+    "Components",
+    "Temporary states",
+    "Navigation",
+    "Notifications",
+    "Modal state"
   ]'
-  default-choice="components">
+  default-choice="Components">
 </px-sass-doc-option>
 
 
@@ -117,21 +117,21 @@
     _shadowsClass : function() {
       var opts = this.selectedOptions || {};
 
-      if(opts.Options === "components") return "shadow-component";
-      if(opts.Options === "temporary states") return "shadow-temporary";
-      if(opts.Options === "navigation") return "shadow-navigation";
-      if(opts.Options === "notifications") return "shadow-notification";
-      if(opts.Options === "modal state") return "shadow-modal";
+      if(opts.Options === "Components") return "shadow-component";
+      if(opts.Options === "Temporary states") return "shadow-temporary";
+      if(opts.Options === "Navigation") return "shadow-navigation";
+      if(opts.Options === "Notifications") return "shadow-notification";
+      if(opts.Options === "Modal state") return "shadow-modal";
     },
 
     _demoText : function() {
       var opts = this.selectedOptions || {};
 
-      if(opts.Options === "components") return "Level 1: Components";
-      if(opts.Options === "temporary states") return "Level 3: Temporary States";
-      if(opts.Options === "navigation") return "Level 4: Navigation";
-      if(opts.Options === "notifications") return "Level 8: Notifications";
-      if(opts.Options === "modal state") return "Level 12: Modal State";
+      if(opts.Options === "Components") return "Level 1: Components";
+      if(opts.Options === "Temporary states") return "Level 3: Temporary States";
+      if(opts.Options === "Navigation") return "Level 4: Navigation";
+      if(opts.Options === "Notifications") return "Level 8: Notifications";
+      if(opts.Options === "Modal state") return "Level 12: Modal State";
     }
 
   });

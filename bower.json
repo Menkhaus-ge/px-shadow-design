@@ -4,7 +4,7 @@
   "authors": [
     "General Electric"
   ],
-  "description": "The Predix UI shadows are a set predefined shadows that give a visual rythm to the design system.",
+  "description": "The Predix UI Shadows module provides a set of predefined shadow styles that give a visual rhythm to the design system.",
   "main": "bower.json",
   "keywords": [
     "px",
