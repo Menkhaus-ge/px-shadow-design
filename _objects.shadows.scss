@@ -12,13 +12,13 @@
 /// @type String [default]
 $inuit-shadows-namespace   : $inuit-namespace !default;
 
-/// Sets the box shadow for level 1: Components
+/// Sets the box shadow for level 1: Component
 ///
 /// @group px-shadows-design:variables:style
 /// @type box-shadow | String [default]
 $inuit-shadow-component     : 0px 1px 1px var(--px-shadow-component, rgba($black, .2));
 
-/// Sets the box shadow for level 3: Temporary states
+/// Sets the box shadow for level 3: Temporary state
 ///
 /// @group px-shadows-design:variables:style
 /// @type box-shadow | String [default]
@@ -30,13 +30,13 @@ $inuit-shadow-temporary     : 0px 1px 3px var(--px-shadow-temporary, rgba($black
 /// @type box-shadow | String [default]
 $inuit-shadow-navigation     : 0px 2px 4px var(--px-shadow-navigation, rgba($black, .2));
 
-/// Sets the box shadow for level 8: Notifications
+/// Sets the box shadow for level 8: Notification
 ///
 /// @group px-shadows-design:variables:style
 /// @type box-shadow | String [default]
 $inuit-shadow-notification     : 0px 4px 8px var(--px-shadow-notification, rgba($black, .2));
 
-/// Sets the box shadow for level 12: Modal states
+/// Sets the box shadow for level 12: Modal state
 ///
 /// @group px-shadows-design:variables:style
 /// @type box-shadow | String [default]
@@ -50,7 +50,7 @@ $inuit-shadow-modal     : 0px 6px 12px var(--px-shadow-modal, rgba($black, .2));
   box-shadow: $inuit-shadow-component;
 }
 
-/// Shadow 3 : Temporary States
+/// Shadow 3 : Temporary State
 .#{$inuit-shadows-namespace}shadow-temporary,
 %#{$inuit-shadows-namespace}shadow-temporary{
   box-shadow: $inuit-shadow-temporary;
@@ -62,7 +62,7 @@ $inuit-shadow-modal     : 0px 6px 12px var(--px-shadow-modal, rgba($black, .2));
   box-shadow: $inuit-shadow-navigation;
 }
 
-/// Shadow 8 : Notifications
+/// Shadow 8 : Notification
 .#{$inuit-shadows-namespace}shadow-notification,
 %#{$inuit-shadows-namespace}shadow-notification{
   box-shadow: $inuit-shadow-notification;
