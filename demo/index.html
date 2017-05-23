@@ -24,13 +24,13 @@
   option-name="Options"
   choose-with="dropdown"
   choices='[
-    "Components",
-    "Temporary states",
+    "Component",
+    "Temporary state",
     "Navigation",
-    "Notifications",
+    "Notification",
     "Modal state"
   ]'
-  default-choice="Components">
+  default-choice="Component">
 </px-sass-doc-option>
 
 
@@ -74,7 +74,7 @@
   <div class="demo-shadow__box"> 11 </div>
   <div class="demo-shadow__box"> 10 </div>
   <div class="demo-shadow__box"> 9 </div>
-  <div class="demo-shadow__box demo-shadow__box--background shadow-notification"> <span class="u-mr">8</span> Notifcation</div>
+  <div class="demo-shadow__box demo-shadow__box--background shadow-notification"> <span class="u-mr">8</span> Notification</div>
   <div class="demo-shadow__box"> 7 </div>
   <div class="demo-shadow__box"> 6 </div>
   <div class="demo-shadow__box"> 5 </div>
@@ -117,20 +117,20 @@
     _shadowsClass : function() {
       var opts = this.selectedOptions || {};
 
-      if(opts.Options === "Components") return "shadow-component";
-      if(opts.Options === "Temporary states") return "shadow-temporary";
+      if(opts.Options === "Component") return "shadow-component";
+      if(opts.Options === "Temporary state") return "shadow-temporary";
       if(opts.Options === "Navigation") return "shadow-navigation";
-      if(opts.Options === "Notifications") return "shadow-notification";
+      if(opts.Options === "Notification") return "shadow-notification";
       if(opts.Options === "Modal state") return "shadow-modal";
     },
 
     _demoText : function() {
       var opts = this.selectedOptions || {};
 
-      if(opts.Options === "Components") return "Level 1: Components";
-      if(opts.Options === "Temporary states") return "Level 3: Temporary States";
+      if(opts.Options === "Component") return "Level 1: Component";
+      if(opts.Options === "Temporary state") return "Level 3: Temporary State";
       if(opts.Options === "Navigation") return "Level 4: Navigation";
-      if(opts.Options === "Notifications") return "Level 8: Notifications";
+      if(opts.Options === "Notification") return "Level 8: Notification";
       if(opts.Options === "Modal state") return "Level 12: Modal State";
     }
 
