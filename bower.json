@@ -28,10 +28,12 @@
     "test",
     "OSS_Notice.pdf"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "px-starter-kit-design": "^1.0.0",
     "px-sass-doc": "^1.0.0"
+  },
+  "resolutions": {
+    "webcomponentsjs": "^0.7.24"
   }
 }
