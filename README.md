@@ -1,8 +1,8 @@
-# px-shadow-design
+# px-shadows-design
 
-The Predix UI shadows are a set predefined shadows that give a visual rythm to the design system.
+## Overview
 
-View the full API at [predix-ui.com](https://www.predix-ui.com/#/css/px-shadows-design/)
+The Predix UI Shadows module provides a set predefined shadows that give a visual rhythm to the design system.
 
 ## Dependencies
 
@@ -29,4 +29,4 @@ These are the available classes:
     shadow-notification
     shadow-modal
 
-
+View the full API [here](https://www.predix-ui.com/#/css/px-shadows-design/)
