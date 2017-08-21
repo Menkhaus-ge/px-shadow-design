@@ -11,36 +11,42 @@
 ///
 /// @group px-shadows-design:variables:style
 /// @type String [default]
+/// @todo n/a
 $inuit-shadows-namespace   : $inuit-namespace !default;
 
 /// Sets the box shadow for level 1: Component
 ///
 /// @group px-shadows-design:variables:style
 /// @type box-shadow | String [default]
+/// @todo --px-shadow-component
 $inuit-shadow-component     : 0px 1px 1px var(--px-shadow-component, rgba($black, .2));
 
 /// Sets the box shadow for level 3: Temporary state
 ///
 /// @group px-shadows-design:variables:style
 /// @type box-shadow | String [default]
+/// @todo --px-shadow-temporary
 $inuit-shadow-temporary     : 0px 1px 3px var(--px-shadow-temporary, rgba($black, .2));
 
 /// Sets the box shadow for level 4: navigation
 ///
 /// @group px-shadows-design:variables:style
 /// @type box-shadow | String [default]
+/// @todo --px-shadow-navigation
 $inuit-shadow-navigation     : 0px 2px 4px var(--px-shadow-navigation, rgba($black, .2));
 
 /// Sets the box shadow for level 8: Notification
 ///
 /// @group px-shadows-design:variables:style
 /// @type box-shadow | String [default]
+/// @todo --px-shadow-notification
 $inuit-shadow-notification     : 0px 4px 8px var(--px-shadow-notification, rgba($black, .2));
 
 /// Sets the box shadow for level 12: Modal state
 ///
 /// @group px-shadows-design:variables:style
 /// @type box-shadow | String [default]
+/// @todo --px-shadow-modal
 $inuit-shadow-modal     : 0px 6px 12px var(--px-shadow-modal, rgba($black, .2));
 
 
