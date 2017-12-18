@@ -1,6 +1,6 @@
 {
     "name": "px-shadows-design",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "The Predix UI shadows are a set predefined shadows that give a visual rythm to the design system.",
     "private": false,
     "scripts": {

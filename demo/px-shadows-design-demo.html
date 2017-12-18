@@ -20,7 +20,7 @@
   selected-options="{{selectedOptions}}">
 
 <!-- 2: Set Options -->
-<px-sass-doc-option
+<px-sass-doc-option slot="options"
   option-name="Options"
   choose-with="dropdown"
   choices='[
@@ -35,17 +35,17 @@
 
 
 <!-- 3: Make HTML Demo -->
-<section data-slot="demoHTML">
+<section slot="demo-html">
 <div class$="demo {{shadowsClass}}">{{demoText}}</div>
 </section>
 
 <!-- 4: Set Import Slot -->
-<section data-slot="import">
+<section slot="import">
 @import "px-shadows-design/_objects.shadows.scss";
 </section>
 
 <!-- 5: Set Usage HTML -->
-<section data-slot="usage">
+<section slot="usage">
 ```
 <!-- Shadow Level 1: Component -->
 <div class="shadow-component"></div>
